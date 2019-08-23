@@ -1,0 +1,7 @@
+2019-08-22 15:57:04,183 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution  *****************************************
+2019-08-22 15:57:04,183 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmImageTest *****************************************
+2019-08-22 15:57:04,230 - com.qa.baseclass.BaseClass -INFO - Validating Image --> true
+2019-08-22 15:57:04,230 - com.qa.baseclass.BaseClass -WARN - Asserted : image
+2019-08-22 15:57:04,231 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
+2019-08-22 15:57:04,231 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmImageTest *****************************************
+2019-08-22 15:57:04,233 - com.qa.baseclass.BaseClass -INFO - Quit the browser
