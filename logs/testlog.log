@@ -1,8 +1,7 @@
-2019-08-23 21:50:09,387 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution  *****************************************
-2019-08-23 21:50:09,387 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmTitleTest *****************************************
-2019-08-23 21:50:09,395 - com.qa.baseclass.BaseClass -INFO - Validating page Title --> #1 Free CRM software for any business - FreeCRM.com
-2019-08-23 21:50:09,395 - com.qa.baseclass.BaseClass -ERROR - java.lang.AssertionError: expected [#1 Free CRM software for any business - FreeCRM.co] but found [#1 Free CRM software for any business - FreeCRM.com]
-2019-08-23 21:50:09,395 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
-2019-08-23 21:50:09,395 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmTitleTest *****************************************
-2019-08-23 21:50:09,399 - com.qa.baseclass.BaseClass -INFO - Quit the browser
-2019-08-23 21:50:11,080 - com.qa.baseclass.BaseClass -INFO - Read data from Excel file
+2019-08-23 22:07:47,666 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution  *****************************************
+2019-08-23 22:07:47,666 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmImageTest *****************************************
+2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - Validating Image --> true
+2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -WARN - Asserted : image
+2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
+2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmImageTest *****************************************
+2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - Quit the browser

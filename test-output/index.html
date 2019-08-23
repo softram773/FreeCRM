@@ -29,16 +29,16 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite">
-              <span class="suite-name border-passed">FreeCRM smoke testing suite</span>
+            <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" class="navigator-link">
+              <span class="suite-name border-skipped">FreeCRM smoke testing suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="test-xml-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span>C:\Users\ramesh.biradar\eclipse-workspace\FreeCRM\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="testlist-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="group-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="times-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="reporter-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="ignored-methods-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-FreeCRM_smoke_testing_suite">
+                  <a href="#" panel-name="chronological-FreeCRM_smoke_testing_suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods,  2 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" class="hide-methods skipped suite-FreeCRM_smoke_testing_suite"> (hide)</a> <!-- hide-methods skipped suite-FreeCRM_smoke_testing_suite -->
+                      <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" class="show-methods skipped suite-FreeCRM_smoke_testing_suite"> (show)</a> <!-- show-methods skipped suite-FreeCRM_smoke_testing_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-FreeCRM_smoke_testing_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.ContactsPageTest" class="method navigator-link" hash-for-method="validateFormTitle">validateFormTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateHomePageTitle">validateHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-FreeCRM_smoke_testing_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,23 +120,13 @@
                     </span>
                     <div class="method-list-content passed suite-FreeCRM_smoke_testing_suite">
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.ContactsPageTest" hash-for-method="validateFormTitle">validateFormTitle</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateImage">validateImage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.HomePageTest" hash-for-method="validateHomePageTitle">validateHomePageTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="validateImage">validateImage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-FreeCRM_smoke_testing_suite -->
@@ -132,9 +141,49 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-FreeCRM_smoke_testing_suite" class="panel FreeCRM_smoke_testing_suite">
-          <div class="suite-FreeCRM_smoke_testing_suite-class-passed">
+          <div class="suite-FreeCRM_smoke_testing_suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.testcases.ContactsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFormTitle">
+                  </a> <!-- validateFormTitle -->
+                  <span class="method-name">validateFormTitle</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;BLR1-LHP-N61317&apos;, ip: &apos;172.24.240.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\RAMESH~1.BIR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50352}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.100, webStorageEnabled: true}
+Session ID: 72b66f29e2ef3c4ea3953583c6869110
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:34)
+	at com.qa.testcases.ContactsPageTest.setUp(ContactsPageTest.java:32)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FreeCRM_smoke_testing_suite-class-skipped -->
+          <div class="suite-FreeCRM_smoke_testing_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
               <span class="class-name">com.qa.testcases.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -143,10 +192,35 @@
                   <a name="validateHomePageTitle">
                   </a> <!-- validateHomePageTitle -->
                   <span class="method-name">validateHomePageTitle</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: timeout
+  (Session info: chrome=76.0.3809.100)
+  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.5&apos;, revision: &apos;d54ebd709a&apos;, time: &apos;2018-11-06T11:42:16&apos;
+System info: host: &apos;BLR1-LHP-N61317&apos;, ip: &apos;172.24.240.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\RAMESH~1.BIR\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50308}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 76.0.3809.100, webStorageEnabled: true}
+Session ID: 0817030b06ad551d122df48ff729dffc
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy15.click(Unknown Source)
+	at com.qa.pages.LoginPage.login(LoginPage.java:34)
+	at com.qa.testcases.HomePageTest.setUp(HomePageTest.java:30)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FreeCRM_smoke_testing_suite-class-passed -->
+          </div> <!-- suite-FreeCRM_smoke_testing_suite-class-skipped -->
           <div class="suite-FreeCRM_smoke_testing_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -169,21 +243,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-FreeCRM_smoke_testing_suite-class-passed -->
-          <div class="suite-FreeCRM_smoke_testing_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.qa.testcases.ContactsPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateFormTitle">
-                  </a> <!-- validateFormTitle -->
-                  <span class="method-name">validateFormTitle</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FreeCRM_smoke_testing_suite-class-passed -->
         </div> <!-- panel FreeCRM_smoke_testing_suite -->
         <div panel-name="test-xml-FreeCRM_smoke_testing_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -193,7 +252,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FreeCRM smoke testing suite&quot;&gt;
+&lt;suite name=&quot;FreeCRM smoke testing suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
@@ -243,26 +302,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateFormTitle')
-data.setCell(0, 2, 'com.qa.testcases.ContactsPageTest')
-data.setCell(0, 3, 432);
+data.setCell(0, 1, 'validateImage')
+data.setCell(0, 2, 'com.qa.testcases.LoginPageTest')
+data.setCell(0, 3, 35);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateImage')
+data.setCell(1, 1, 'validateTitle')
 data.setCell(1, 2, 'com.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 50);
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'validateTitle')
-data.setCell(2, 2, 'com.qa.testcases.LoginPageTest')
-data.setCell(2, 3, 35);
+data.setCell(2, 1, 'validateHomePageTitle')
+data.setCell(2, 2, 'com.qa.testcases.HomePageTest')
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateHomePageTitle')
-data.setCell(3, 2, 'com.qa.testcases.HomePageTest')
-data.setCell(3, 3, 11);
+data.setCell(3, 1, 'validateFormTitle')
+data.setCell(3, 2, 'com.qa.testcases.ContactsPageTest')
+data.setCell(3, 3, 0);
 window.suiteTableData['FreeCRM_smoke_testing_suite']= { tableData: data, tableDiv: 'times-div-FreeCRM_smoke_testing_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 528 ms</span>
+              <span class="suite-total-time">Total running time: 51 ms</span>
               <div id="times-div-FreeCRM_smoke_testing_suite">
               </div> <!-- times-div-FreeCRM_smoke_testing_suite -->
             </div> <!-- times-div -->
@@ -295,57 +354,59 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTitle</span>
-                <span class="method-start">9286 ms</span>
+                <span class="method-start">11073 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9325 ms</span>
+                <span class="method-start">11089 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">10555 ms</span>
+                <span class="method-start">12279 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateHomePageTitle</span>
-                <span class="method-start">26545 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">26558 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.ContactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">27775 ms</span>
+                <span class="method-start">41244 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateFormTitle</span>
-                <span class="method-start">44760 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">45194 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUP</span>
-                <span class="method-start">46439 ms</span>
+                <span class="method-start">70553 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateImage</span>
-                <span class="method-start">54501 ms</span>
+                <span class="method-start">79746 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54553 ms</span>
+                <span class="method-start">79781 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateHomePageTitle</span>
+                <span class="method-start">-1566578187920 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.testcases.ContactsPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateFormTitle</span>
+                <span class="method-start">-1566578187920 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

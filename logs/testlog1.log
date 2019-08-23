@@ -161,3 +161,21 @@
 2019-08-23 21:50:09,395 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
 2019-08-23 21:50:09,399 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
 2019-08-23 21:50:11,080 [main] INFO com.qa.baseclass.BaseClass - Read data from Excel file
+2019-08-23 22:06:38,950 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-08-23 22:06:38,997 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-08-23 22:06:38,997 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-08-23 22:06:39,005 [main] INFO com.qa.baseclass.BaseClass - Validating page Title --> #1 Free CRM software for any business - FreeCRM.com
+2019-08-23 22:06:39,009 [main] ERROR com.qa.baseclass.BaseClass - java.lang.AssertionError: expected [#1 Free CRM software for any business - FreeCRM.co] but found [#1 Free CRM software for any business - FreeCRM.com]
+2019-08-23 22:06:39,009 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-08-23 22:06:39,009 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-08-23 22:06:39,009 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-08-23 22:06:48,995 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-08-23 22:07:18,343 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-08-23 22:07:47,653 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-08-23 22:07:47,666 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-08-23 22:07:47,666 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmImageTest *****************************************
+2019-08-23 22:07:47,701 [main] INFO com.qa.baseclass.BaseClass - Validating Image --> true
+2019-08-23 22:07:47,701 [main] WARN com.qa.baseclass.BaseClass - Asserted : image
+2019-08-23 22:07:47,701 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-08-23 22:07:47,701 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmImageTest *****************************************
+2019-08-23 22:07:47,701 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
