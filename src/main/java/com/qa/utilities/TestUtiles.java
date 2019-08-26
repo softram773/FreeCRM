@@ -10,8 +10,8 @@ import org.openqa.selenium.TakesScreenshot;
 import com.qa.baseclass.BaseClass;
 
 public class TestUtiles extends BaseClass{
-		public static long PAGE_LOAD_TIME = 20;
-		public static long IMPLICIT_WAIT_TIME = 10;
+		public static long PAGE_LOAD_TIME = 30;
+		public static long IMPLICIT_WAIT_TIME = 30;
 		
 		public static void screenCaptureonfailedTest(String testmathodName) {
 			File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

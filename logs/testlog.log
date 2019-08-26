@@ -1,7 +1,7 @@
-2019-08-23 22:07:47,666 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution  *****************************************
-2019-08-23 22:07:47,666 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmImageTest *****************************************
-2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - Validating Image --> true
-2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -WARN - Asserted : image
-2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
-2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmImageTest *****************************************
-2019-08-23 22:07:47,701 - com.qa.baseclass.BaseClass -INFO - Quit the browser
+2019-08-26 11:22:44,703 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution   *****************************************
+2019-08-26 11:22:44,704 - com.qa.baseclass.BaseClass -INFO - ****************************** Create New Contact*****************************************
+2019-08-26 11:22:44,704 - com.qa.baseclass.BaseClass -INFO - Creating new contact
+2019-08-26 11:22:47,453 - com.qa.baseclass.BaseClass -INFO - Creating new contact --> FirstName : SureshLast Name : kattimaniSocialMedia : LinkedInCountry : AfghanistanDay : 10.0Month : 10.0Year :1987.0
+2019-08-26 11:22:47,453 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
+2019-08-26 11:22:47,453 - com.qa.baseclass.BaseClass -INFO - ****************************** End creating New Contact*****************************************
+2019-08-26 11:22:47,454 - com.qa.baseclass.BaseClass -INFO - Browser closed

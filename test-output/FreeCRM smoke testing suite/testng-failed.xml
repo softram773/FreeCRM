@@ -6,20 +6,13 @@
   </listeners>
   <test thread-count="5" name="Login and Home page tests(failed)">
     <classes>
-      <class name="com.qa.testcases.ContactsPageTest">
+      <class name="com.qa.testcases.LoginPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="validateFormTitle"/>
           <include name="tearDown"/>
+          <include name="setUP"/>
+          <include name="validateImage"/>
         </methods>
-      </class> <!-- com.qa.testcases.ContactsPageTest -->
-      <class name="com.qa.testcases.HomePageTest">
-        <methods>
-          <include name="validateHomePageTitle"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.testcases.HomePageTest -->
+      </class> <!-- com.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Login and Home page tests(failed) -->
 </suite> <!-- Failed suite [FreeCRM smoke testing suite] -->

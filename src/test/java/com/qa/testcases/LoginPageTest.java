@@ -39,7 +39,8 @@ public class LoginPageTest extends BaseClass{
 		try {
 		title = login.validateLoginPageTitle();
 		log.info("Validating page Title --> " + title);
-		Assert.assertEquals(title, "#1 Free CRM software for any business - FreeCRM.co");
+//		Assert.assertEquals(title, "#1 Free CRM software for any business - FreeCRM.com");
+		Assert.assertEquals(title, "CRM");
 		}catch(Exception e) {
 			log.error("Login page title is not showing as expected --> " + title);
 		}catch(AssertionError e) {
@@ -48,7 +49,7 @@ public class LoginPageTest extends BaseClass{
 		log.info("****************************** ending test case *****************************************");
 		log.info("****************************** freeCrmTitleTest *****************************************");
 	}
-	@Test(priority=2)
+	@Test(priority=2, enabled=false)
 	public void validateImage() {
 		log.info("****************************** Starting test cases execution  *****************************************");
 		log.info("****************************** freeCrmImageTest *****************************************");

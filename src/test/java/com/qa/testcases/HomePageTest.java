@@ -34,6 +34,7 @@ public class HomePageTest extends BaseClass{
 		log.info("****************************** Starting test cases execution  *****************************************");
 		log.info("****************************** freeCrmHomepagetitleTest *****************************************");
 		try {
+			log.info("validating Home Page title : " + homepage.getTitle());
 		Assert.assertEquals(homepage.getTitle(), "CRM");
 		log.info("validated Home Page title as expected");
 		}catch(Exception e) {
@@ -49,7 +50,7 @@ public class HomePageTest extends BaseClass{
 		log.info("****************************** Starting test cases execution  *****************************************");
 		log.info("****************************** freeCrmLogin UserName *****************************************");
 		try {
-			log.info("Validating login user name :");
+			log.info("Validating login user name :" + homepage.loginusername());
 			Assert.assertEquals(homepage.loginusername(), "ramesh Biradar");
 			log.info("Validated login user name and accessed:");
 		}catch(Exception e) {

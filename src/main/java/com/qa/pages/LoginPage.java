@@ -7,8 +7,8 @@ import com.qa.baseclass.BaseClass;
 
 public class LoginPage extends BaseClass{
 	
-	@FindBy(xpath="//a[contains(text(),'Login')]")
-	WebElement loginlink;
+//	@FindBy(xpath="//a[contains(text(),'Login')]")
+//	WebElement loginlink;
 	@FindBy(css="input[name='email']" )
 	WebElement enterusername;
 	@FindBy(css="input[name='password']")
@@ -31,7 +31,7 @@ public class LoginPage extends BaseClass{
 	}
 	
 	public HomePage login(String un, String pwd) {
-		loginlink.click();
+//		loginlink.click();
 		enterusername.sendKeys(un);
 		enterpassword.sendKeys(pwd);
 		clickonlogin.click();
