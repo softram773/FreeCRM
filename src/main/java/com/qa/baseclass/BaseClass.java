@@ -49,7 +49,7 @@ public class BaseClass {
 			}
 			driver.manage().timeouts().pageLoadTimeout(TestUtiles.PAGE_LOAD_TIME, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(TestUtiles.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);
-			driver.get(propertie.getProperty("url"));
+			driver.navigate().to(propertie.getProperty("url"));
 			driver.manage().window().maximize();
 			driver.manage().deleteAllCookies();
 			

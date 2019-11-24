@@ -405,3 +405,59 @@
 2019-08-26 11:22:47,453 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
 2019-08-26 11:22:47,453 [main] INFO com.qa.baseclass.BaseClass - ****************************** End creating New Contact*****************************************
 2019-08-26 11:22:47,454 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-09-18 12:26:15,031 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 12:32:21,559 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 12:33:30,365 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 12:35:31,380 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 12:37:00,808 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 14:52:05,391 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 14:55:23,717 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 14:57:15,141 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 14:58:53,040 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:01:33,950 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:03:07,803 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:23:38,439 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:24:24,053 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:26:36,347 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:52:00,312 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:53:16,632 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:55:59,668 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 15:56:44,744 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:37:14,549 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:39:13,034 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:42:29,206 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:43:09,802 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:44:21,568 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:44:55,171 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:47:59,242 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:49:53,414 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:50:35,169 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:53:49,609 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 16:54:43,488 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:15:11,490 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:17:18,457 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:18:58,757 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:20:30,255 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:22:48,256 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:24:18,717 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:25:01,576 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-09-18 17:25:57,903 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-11-24 11:02:00,702 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 11:02:00,812 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 11:02:00,816 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 11:02:00,840 [main] INFO com.qa.baseclass.BaseClass - Validating page Title --> Cogmento CRM
+2019-11-24 11:02:00,848 [main] ERROR com.qa.baseclass.BaseClass - java.lang.AssertionError: expected [CRM] but found [Cogmento CRM]
+2019-11-24 11:02:00,848 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 11:02:00,848 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 11:02:00,860 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 11:02:25,736 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 11:02:26,538 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 11:02:26,538 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmHomepagetitleTest *****************************************
+2019-11-24 11:02:26,550 [main] INFO com.qa.baseclass.BaseClass - validating Home Page title : Cogmento CRM
+2019-11-24 11:02:27,178 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 11:02:38,632 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 11:02:41,806 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 11:02:41,808 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmContactsFormTitle*****************************************
+2019-11-24 11:02:42,231 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 11:02:42,231 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
+2019-11-24 11:02:42,235 [main] INFO com.qa.baseclass.BaseClass - Browser closed

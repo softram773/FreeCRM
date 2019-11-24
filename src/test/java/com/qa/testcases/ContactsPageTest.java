@@ -3,15 +3,17 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.qa.baseclass.BaseClass;
 import com.qa.pages.Contacts;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
+import com.qa.utilities.CustomListener;
 import com.qa.utilities.ReadExcel;
 
 
-//@Listeners(CustomListener.class)
+@Listeners(CustomListener.class)
 public class ContactsPageTest extends BaseClass{
 	
 	LoginPage login;

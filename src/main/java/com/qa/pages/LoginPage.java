@@ -18,6 +18,7 @@ public class LoginPage extends BaseClass{
 	@FindBy(css=".img-responsive")
 	WebElement crmimage;
 	
+	//Actions / methods
 	public LoginPage() {
 		PageFactory.initElements(driver, this);
 	}

@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.qa.baseclass.BaseClass;
+import com.qa.pages.availableContacts;
 
 public class TestUtiles extends BaseClass{
 		public static long PAGE_LOAD_TIME = 30;
@@ -21,5 +22,11 @@ public class TestUtiles extends BaseClass{
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+		}
+		public static String[] Xpath(String fullpath) {
+			String[] xpathArray = new String[2];
+			xpathArray[0] = fullpath.substring(0, 5);			
+			xpathArray[1]  = fullpath.substring(6);
+			return xpathArray;
 		}
 }
