@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" class="navigator-link">
+            <a href="#" class="navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite">
               <span class="suite-name border-failed">FreeCRM smoke testing suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-FreeCRM_smoke_testing_suite">
                     <span>C:\Users\ramesh.biradar\eclipse-workspace\FreeCRM2\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="testlist-FreeCRM_smoke_testing_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-FreeCRM_smoke_testing_suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-FreeCRM_smoke_testing_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-FreeCRM_smoke_testing_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-FreeCRM_smoke_testing_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-FreeCRM_smoke_testing_suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-FreeCRM_smoke_testing_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,8 +101,8 @@
                     </span>
                     <div class="method-list-content failed suite-FreeCRM_smoke_testing_suite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateHomePageTitle">validateHomePageTitle</a> <!-- method navigator-link -->
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.HomePageTest" hash-for-method="validateHomePageTitle">validateHomePageTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-FreeCRM_smoke_testing_suite -->
@@ -115,13 +115,13 @@
                     </span>
                     <div class="method-list-content passed suite-FreeCRM_smoke_testing_suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.ContactsPageTest" class="method navigator-link" hash-for-method="validateFormTitle">validateFormTitle</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.ContactsPageTest" hash-for-method="validateFormTitle">validateFormTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.LoginPageTest" class="method navigator-link" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-FreeCRM_smoke_testing_suite" title="com.qa.testcases.LoginPageTest" hash-for-method="validateTitle">validateTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-FreeCRM_smoke_testing_suite -->
@@ -194,7 +194,7 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;FreeCRM smoke testing suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;FreeCRM smoke testing suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
@@ -246,20 +246,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validateFormTitle')
 data.setCell(0, 2, 'com.qa.testcases.ContactsPageTest')
-data.setCell(0, 3, 429);
+data.setCell(0, 3, 406);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validateTitle')
 data.setCell(1, 2, 'com.qa.testcases.LoginPageTest')
-data.setCell(1, 3, 52);
+data.setCell(1, 3, 38);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateHomePageTitle')
 data.setCell(2, 2, 'com.qa.testcases.HomePageTest')
-data.setCell(2, 3, 28);
+data.setCell(2, 3, 34);
 window.suiteTableData['FreeCRM_smoke_testing_suite']= { tableData: data, tableDiv: 'times-div-FreeCRM_smoke_testing_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 509 ms</span>
+              <span class="suite-total-time">Total running time: 478 ms</span>
               <div id="times-div-FreeCRM_smoke_testing_suite">
               </div> <!-- times-div-FreeCRM_smoke_testing_suite -->
             </div> <!-- times-div -->
@@ -299,43 +299,43 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateTitle</span>
-                <span class="method-start">12691 ms</span>
+                <span class="method-start">10737 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12751 ms</span>
+                <span class="method-start">10779 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">14055 ms</span>
+                <span class="method-start">12043 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateHomePageTitle</span>
-                <span class="method-start">38425 ms</span>
+                <span class="method-start">22642 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39069 ms</span>
+                <span class="method-start">23254 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testcases.ContactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40333 ms</span>
+                <span class="method-start">24502 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validateFormTitle</span>
-                <span class="method-start">53693 ms</span>
+                <span class="method-start">37059 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">54126 ms</span>
+                <span class="method-start">37467 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

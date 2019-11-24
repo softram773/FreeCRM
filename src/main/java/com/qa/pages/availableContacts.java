@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.baseclass.BaseClass;
 
-import Inheritance.baseclass;
+
 
 public class availableContacts extends BaseClass{
 	

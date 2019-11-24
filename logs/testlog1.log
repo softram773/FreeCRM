@@ -461,3 +461,67 @@
 2019-11-24 11:02:42,231 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
 2019-11-24 11:02:42,231 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
 2019-11-24 11:02:42,235 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 20:09:07,869 [main] INFO com.qa.baseclass.BaseClass - Initialized with config parameter 
+2019-11-24 20:09:26,394 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:09:29,676 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 20:09:29,683 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmContactsFormTitle*****************************************
+2019-11-24 20:09:30,143 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:09:30,144 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
+2019-11-24 20:09:30,146 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 20:09:41,990 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:09:43,162 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 20:09:43,165 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmHomepagetitleTest *****************************************
+2019-11-24 20:09:43,177 [main] INFO com.qa.baseclass.BaseClass - validating Home Page title : Cogmento CRM
+2019-11-24 20:09:43,855 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 20:09:54,140 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:09:54,166 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 20:09:54,170 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 20:09:54,180 [main] INFO com.qa.baseclass.BaseClass - Validating page Title --> Cogmento CRM
+2019-11-24 20:09:54,182 [main] ERROR com.qa.baseclass.BaseClass - java.lang.AssertionError: expected [CRM] but found [Cogmento CRM]
+2019-11-24 20:09:54,182 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:09:54,183 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 20:09:54,184 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 20:09:56,705 [main] INFO com.qa.baseclass.BaseClass - Read data from Excel file
+2019-11-24 20:10:07,435 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:10:10,446 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 20:10:10,450 [main] INFO com.qa.baseclass.BaseClass - ****************************** Create New Contact*****************************************
+2019-11-24 20:10:10,450 [main] INFO com.qa.baseclass.BaseClass - Creating new contact
+2019-11-24 20:10:16,679 [main] INFO com.qa.baseclass.BaseClass - Creating new contact --> FirstName : RameshLast Name : BiradarSocialMedia : FacebookCountry : IndiaDay : 10.0Month : 10.0Year :1987.0
+2019-11-24 20:10:16,680 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:10:16,680 [main] INFO com.qa.baseclass.BaseClass - ****************************** End creating New Contact*****************************************
+2019-11-24 20:10:16,681 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 20:10:28,550 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:10:31,344 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 20:10:31,349 [main] INFO com.qa.baseclass.BaseClass - ****************************** Create New Contact*****************************************
+2019-11-24 20:10:31,350 [main] INFO com.qa.baseclass.BaseClass - Creating new contact
+2019-11-24 20:10:37,483 [main] INFO com.qa.baseclass.BaseClass - Creating new contact --> FirstName : AmbikaLast Name : SulepethSocialMedia : TwitterCountry : United KingdomDay : 10.0Month : 10.0Year :1987.0
+2019-11-24 20:10:37,484 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:10:37,485 [main] INFO com.qa.baseclass.BaseClass - ****************************** End creating New Contact*****************************************
+2019-11-24 20:10:37,486 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 20:10:47,912 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:10:51,096 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 20:10:51,102 [main] INFO com.qa.baseclass.BaseClass - ****************************** Create New Contact*****************************************
+2019-11-24 20:10:51,102 [main] INFO com.qa.baseclass.BaseClass - Creating new contact
+2019-11-24 20:10:58,766 [main] INFO com.qa.baseclass.BaseClass - Creating new contact --> FirstName : SureshLast Name : kattimaniSocialMedia : LinkedInCountry : AfghanistanDay : 10.0Month : 10.0Year :1987.0
+2019-11-24 20:10:58,766 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:10:58,766 [main] INFO com.qa.baseclass.BaseClass - ****************************** End creating New Contact*****************************************
+2019-11-24 20:10:58,770 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 20:13:52,978 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:13:53,073 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 20:13:53,078 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 20:13:53,092 [main] INFO com.qa.baseclass.BaseClass - Validating page Title --> Cogmento CRM
+2019-11-24 20:13:53,097 [main] ERROR com.qa.baseclass.BaseClass - java.lang.AssertionError: expected [CRM] but found [Cogmento CRM]
+2019-11-24 20:13:53,099 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:13:53,099 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 20:13:53,106 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 20:14:03,715 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:14:04,971 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 20:14:04,977 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmHomepagetitleTest *****************************************
+2019-11-24 20:14:04,989 [main] INFO com.qa.baseclass.BaseClass - validating Home Page title : Cogmento CRM
+2019-11-24 20:14:05,580 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 20:14:16,031 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 20:14:19,387 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 20:14:19,394 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmContactsFormTitle*****************************************
+2019-11-24 20:14:19,789 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 20:14:19,790 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
+2019-11-24 20:14:19,792 [main] INFO com.qa.baseclass.BaseClass - Browser closed
