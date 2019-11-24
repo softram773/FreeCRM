@@ -1,5 +1,5 @@
-2019-11-24 20:14:19,387 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution   *****************************************
-2019-11-24 20:14:19,394 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmContactsFormTitle*****************************************
-2019-11-24 20:14:19,789 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
-2019-11-24 20:14:19,790 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmFormTitle *****************************************
-2019-11-24 20:14:19,792 - com.qa.baseclass.BaseClass -INFO - Browser closed
+2019-11-24 22:34:39,961 - com.qa.baseclass.BaseClass -INFO - ****************************** Starting test cases execution   *****************************************
+2019-11-24 22:34:39,966 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmContactsFormTitle*****************************************
+2019-11-24 22:34:40,406 - com.qa.baseclass.BaseClass -INFO - ****************************** ending test case *****************************************
+2019-11-24 22:34:40,406 - com.qa.baseclass.BaseClass -INFO - ****************************** freeCrmFormTitle *****************************************
+2019-11-24 22:34:40,406 - com.qa.baseclass.BaseClass -INFO - Browser closed

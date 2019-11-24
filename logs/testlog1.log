@@ -525,3 +525,41 @@
 2019-11-24 20:14:19,789 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
 2019-11-24 20:14:19,790 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
 2019-11-24 20:14:19,792 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 22:29:44,690 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 22:29:44,809 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 22:29:44,813 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 22:29:44,829 [main] INFO com.qa.baseclass.BaseClass - Validating page Title --> Cogmento CRM
+2019-11-24 22:29:44,833 [main] ERROR com.qa.baseclass.BaseClass - java.lang.AssertionError: expected [CRM] but found [Cogmento CRM]
+2019-11-24 22:29:44,833 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 22:29:44,833 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 22:29:44,837 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 22:29:55,788 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 22:29:57,079 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 22:29:57,085 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmHomepagetitleTest *****************************************
+2019-11-24 22:29:57,097 [main] INFO com.qa.baseclass.BaseClass - validating Home Page title : Cogmento CRM
+2019-11-24 22:29:59,165 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 22:30:09,794 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 22:30:12,996 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 22:30:13,003 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmContactsFormTitle*****************************************
+2019-11-24 22:30:14,449 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 22:30:14,449 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
+2019-11-24 22:30:14,454 [main] INFO com.qa.baseclass.BaseClass - Browser closed
+2019-11-24 22:34:12,214 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 22:34:12,343 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 22:34:12,351 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 22:34:12,367 [main] INFO com.qa.baseclass.BaseClass - Validating page Title --> Cogmento CRM
+2019-11-24 22:34:12,375 [main] ERROR com.qa.baseclass.BaseClass - java.lang.AssertionError: expected [CRM] but found [Cogmento CRM]
+2019-11-24 22:34:12,379 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 22:34:12,379 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmTitleTest *****************************************
+2019-11-24 22:34:12,383 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 22:34:24,606 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 22:34:25,271 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution  *****************************************
+2019-11-24 22:34:25,275 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmHomepagetitleTest *****************************************
+2019-11-24 22:34:25,287 [main] INFO com.qa.baseclass.BaseClass - validating Home Page title : Cogmento CRM
+2019-11-24 22:34:25,919 [main] INFO com.qa.baseclass.BaseClass - Quit the browser
+2019-11-24 22:34:36,766 [main] INFO com.qa.baseclass.BaseClass - Lauching Chrome Browser
+2019-11-24 22:34:39,961 [main] INFO com.qa.baseclass.BaseClass - ****************************** Starting test cases execution   *****************************************
+2019-11-24 22:34:39,966 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmContactsFormTitle*****************************************
+2019-11-24 22:34:40,406 [main] INFO com.qa.baseclass.BaseClass - ****************************** ending test case *****************************************
+2019-11-24 22:34:40,406 [main] INFO com.qa.baseclass.BaseClass - ****************************** freeCrmFormTitle *****************************************
+2019-11-24 22:34:40,406 [main] INFO com.qa.baseclass.BaseClass - Browser closed
